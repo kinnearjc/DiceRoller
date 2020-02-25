@@ -1,20 +1,15 @@
 package com.example.testapp1
 
 import android.annotation.SuppressLint
-import android.os.Build
 import android.os.Bundle
-import android.util.Log
-import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
-import java.text.SimpleDateFormat
-import java.time.LocalDateTime
-import java.util.*
 
 
 class MainActivity : AppCompatActivity() {
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -47,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
             else if(diceCounter<6){
                 if(System.currentTimeMillis()-timeStart<1000){
-                    var nextDie=(1..4).random().toString()
+                    val nextDie=(1..4).random().toString()
                     text2.append(", $nextDie")
                     diceCounter++
                     timeStart=System.currentTimeMillis()
@@ -106,7 +101,7 @@ class MainActivity : AppCompatActivity() {
 
             else if(diceCounter<6){
                 if(System.currentTimeMillis()-timeStart<1000){
-                    var nextDie=(1..6).random().toString()
+                    val nextDie=(1..6).random().toString()
                     text2.append(", $nextDie")
                     diceCounter++
                     timeStart=System.currentTimeMillis()
@@ -149,7 +144,7 @@ class MainActivity : AppCompatActivity() {
 
             else if(diceCounter<6){
                 if(System.currentTimeMillis()-timeStart<1000){
-                    var nextDie=(1..8).random().toString()
+                    val nextDie=(1..8).random().toString()
                     text2.append(", $nextDie")
                     diceCounter++
                     timeStart=System.currentTimeMillis()
@@ -191,7 +186,7 @@ class MainActivity : AppCompatActivity() {
 
             else if(diceCounter<6){
                 if(System.currentTimeMillis()-timeStart<1000){
-                    var nextDie=(1..10).random().toString()
+                    val nextDie=(1..10).random().toString()
                     text2.append(", $nextDie")
                     diceCounter++
                     timeStart=System.currentTimeMillis()
@@ -234,7 +229,7 @@ class MainActivity : AppCompatActivity() {
 
             else if(diceCounter<6){
                 if(System.currentTimeMillis()-timeStart<1000){
-                    var nextDie=(1..100).random().toString()
+                    val nextDie=(1..100).random().toString()
                     text2.append(", $nextDie")
                     diceCounter++
                     timeStart=System.currentTimeMillis()
@@ -277,7 +272,7 @@ class MainActivity : AppCompatActivity() {
 
             else if(diceCounter<6){
                 if(System.currentTimeMillis()-timeStart<1000){
-                    var nextDie=(1..12).random().toString()
+                    val nextDie=(1..12).random().toString()
                     text2.append(", $nextDie")
                     diceCounter++
                     timeStart=System.currentTimeMillis()
@@ -320,7 +315,7 @@ class MainActivity : AppCompatActivity() {
 
             else if(diceCounter<6){
                 if(System.currentTimeMillis()-timeStart<1000){
-                    var nextDie=(1..20).random().toString()
+                    val nextDie=(1..20).random().toString()
                     text2.append(", $nextDie")
                     diceCounter++
                     timeStart=System.currentTimeMillis()
