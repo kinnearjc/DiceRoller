@@ -1,6 +1,12 @@
 # DiceRoller
 
-This is my dice roller app. As it stands it has the following features:
+This is my dice roller app. 
+
+In order to utilize the app as it stands, download and install the apk file found in the same folder as this ReadMe on your android device. 
+
+
+
+As it stands it has the following features:
 
 -buttons to roll die of the following types: d4, d6, d8, d10, d%(100), d12, and d20
 
@@ -13,7 +19,7 @@ This is my dice roller app. As it stands it has the following features:
 -any rolls after the previous second of execution will begin a new list of results
 
 
-intended improvements:
+Intended improvements:
 
 -allow for adaptation when device is rotated 90 degrees
 
