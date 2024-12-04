@@ -2,7 +2,7 @@
 
 This is my dice roller app. 
 
-In order to utilize the app as it stands, download and install the apk file found in the same folder as this ReadMe on your android device. 
+In order to utilize the app, download and install the apk file found in the same folder as this ReadMe on your android device. 
 
 
 
